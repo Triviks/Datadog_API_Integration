@@ -22,6 +22,7 @@ const CreateMonitorForm = ({ onMonitorCreated }) => {
     try {
       const response = await fetch('/api/monitor', {
         method: "POST",
+        // mode: "no-cors",
         redirect: "follow",
         headers: {
           'Content-Type': 'application/json',

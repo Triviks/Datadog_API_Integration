@@ -22,7 +22,7 @@ const MonitorTable = () => {
     }
 
     return (
-        <table className="table table-striped mt-3" style={{fontFamily: "Montserrat"}}>
+        <table className="table table-striped mt-3" style={{ fontFamily: "Montserrat" }}>
             <thead className='table-dark'>
                 <tr>
                     <th>Monitor Name</th>

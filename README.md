@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## App.js
+This is the main file of the project. It contains all the main components of the project.
+
+## MonitorTable.jsx
+This is the main component of the project. It contains the table with the data that has been fetched
+
+## CreateMonitorForm.jsx
+This is the form that has form to get new monitor details. It sends HTTP POST to Datadog to create new monitors.
+
+## api.js
+This file contains the functions that are used to fetch the data from the server of DatadogHQ
+
+## setupProxy.js 
+This file is used to setup the proxy for the HTTP requests from localhost to bypass CORS.
+
 ## Available Scripts
 
 In the project directory, you can run:
