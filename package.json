@@ -21,12 +21,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:proxy": "react-scripts start --proxy=src/setupProxy.js"
+    "start:proxy": "react-scripts start --proxy=src/setupProxy.js",
+    "start:server": "node index.js"  
   },
   "proxy": "https://api.us5.datadoghq.com",
   "eslintConfig": {
